@@ -42,6 +42,7 @@ fun s:set_props()
     if
         \ b:filetype == 'c' ||
         \ b:filetype == 'cpp' ||
+        \ b:filetype == 'go' ||
         \ b:filetype == 'css' ||
         \ b:filetype == 'groovy' ||
         \ b:filetype == 'java' ||
